@@ -1,0 +1,97 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+
+	
+}
+
+section{
+	padding:75px 0px;
+	margin:0 auto;
+}
+.friends{
+	
+	position:static;
+	width:200vh;
+	height:100%;
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	align-items:center;
+	text-align:center;
+	gap: 1rem;
+	
+}
+
+.friends-ing img{
+	height: auto;
+	width: 300;
+	border-radius:46%;
+	
+}
+.friends-text h1{
+
+	font-family: ALL ABOUT FRIENDS;
+	font-size: 70px;
+	color: #F0B27A ;
+	font-weight: 650;
+	text-transform: uppercase;
+	line-height: 1.1;
+	margin-bottom:10px;
+	margin-top:10px;
+	
+}
+.friends-text p{
+	font-family:Goudy Old Style;
+	font-size:25px;
+	font-weight:200;
+	line-height:30px;
+	color:#99A3A4 ;
+	letter-spacing: 2px;
+	margin-bottom:45px;
+}
+.btn{
+	display: inline-block;
+	padding: 13px 38px;
+	background: #F0B27A;
+	color: black;
+	border: 2px solid transparent;
+	border-radius: 30px;
+	transition: all ease.50s;
+	
+}
+.btn:hover{
+	border: 2px solid white;
+	background: transparent;
+	color:#F0B27A;
+
+	
+}
+.categorie-content{
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(150px, auto));
+	align-items: center;
+	text-align: center;
+	gap:1rem;
+	line-height:2.7;	
+}
+.row img{
+	height:auto;
+	width:250px;
+	border-radius:50%;
+	cursor: pointer;
+	transition: transform .50s;
+}
+.row img:hover{
+	transform: translateY(10px);
+	transition: all ease .20s;
+	border: 5px solid #F0B27A;
+
+}
+.row h4{
+	font-size:20px;
+	font-weight:800;
+	font-family:Ink Free;
+	color:#DC7633;
+}

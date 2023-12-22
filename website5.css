@@ -1,0 +1,28 @@
+
+.gallery {
+	width:350px;
+	margin: 5px;
+}
+.gallery .description{
+	padding:10px;
+	text-align:center;
+
+}
+.gallery img{
+	height: auto;
+	width: 350px;
+	
+}
+.description h5{
+	color:#CD853F;
+	font-size:20px;
+	font-weight:bold;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	text-align: center;	
+}
+span {
+	color:#DEB887;
+}
+

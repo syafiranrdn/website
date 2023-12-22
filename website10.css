@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+.container10{
+	max-width: 1200px;
+	width: 95%;
+	
+}
+.slider-wrapper .image-list{
+	display: grid;
+	gap:18px;
+	font-size:0;
+	margin-bottom:10px;
+	margin-left: 50px;
+	overflow:auto;
+	grid-template-columns: repeat(12, 1fr);
+	
+}
+
+
+
